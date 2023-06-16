@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: #0F0E0E;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.weather-box {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 80px;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-cloud {
+  background-image: url('./assets/cloud-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease-in-out 0.5s;
+}
+
+.weather-box.weather-rainy {
+  background: url('./assets/rain-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease-in-out 0.5s;
+}
+
+.weather-day {
+  margin: 3rem auto 1rem;
+}
+
+.weather-input {
+  display: block;
+  width: 80%;
+  padding: 1rem;
+  margin: 0 auto;
+  
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  font-size: 20px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.weather-message {
+  margin: 20px auto;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.weather-box h1 {
+  background-color: transparent;
+  margin: 8rem auto;
+  font-size: 4.4rem;
+  color: #fff;
+}
+
+.weather-box h2 {
+  margin: 6rem auto;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.weather-infos {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-cards {
+  background-image: linear-gradient(to left top, #0f1a2c, #152034, #1a273d, #202e45, #26354e);
+  border-radius: 30px;
+  width: 30%;
+  margin: 0px 5px 0px 5px;
+  padding: 1rem;
+}
+
+.weather-cards li {
+  font-weight: bold;
+  margin: 10px 0 15px 0;
+}
