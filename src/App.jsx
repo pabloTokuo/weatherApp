@@ -5,7 +5,7 @@ import ThermostatIcon from '@mui/icons-material/Thermostat';
 import OpacityIcon from '@mui/icons-material/Opacity';
 
 const api = {
-  key: '',
+  key: '08775b6ce804a7cb6c1c56af309ea69a',
   base: 'https://api.openweathermap.org/data/2.5/',
 };
 
